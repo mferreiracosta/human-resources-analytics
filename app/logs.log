@@ -1,0 +1,298 @@
+2022-09-08 01:09:35,528:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-09-08 01:09:35,530:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-09-08 01:09:35,532:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-09-08 01:09:35,534:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-09-08 01:09:41,557:INFO:Initializing load_model()
+2022-09-08 01:09:41,558:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:09:41,595:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:10:50,491:INFO:Initializing load_model()
+2022-09-08 01:10:50,498:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:10:50,617:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:10:57,725:INFO:Initializing load_model()
+2022-09-08 01:10:57,726:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:10:57,756:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:11:15,524:INFO:Initializing load_model()
+2022-09-08 01:11:15,524:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:11:15,544:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:11:18,818:INFO:Initializing load_model()
+2022-09-08 01:11:18,819:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:11:18,838:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:11:19,058:INFO:Initializing predict_model()
+2022-09-08 01:11:19,059:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f6a26fda160>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(fill_value='constant',
+                                                              strategy='constant'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[],
+                                    transformer=VarianceThreshold(threshold=0))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=7981))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f6a0c9821f0>)
+2022-09-08 01:11:19,060:INFO:Checking exceptions
+2022-09-08 01:11:19,060:INFO:Preloading libraries
+2022-09-08 01:11:19,113:INFO:Set up data.
+2022-09-08 01:13:12,220:INFO:Initializing load_model()
+2022-09-08 01:13:12,226:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:13:12,337:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:13:18,088:INFO:Initializing load_model()
+2022-09-08 01:13:18,089:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:13:18,107:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:13:24,005:INFO:Initializing load_model()
+2022-09-08 01:13:24,005:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:13:24,024:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:13:25,863:INFO:Initializing load_model()
+2022-09-08 01:13:25,863:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:13:25,883:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:13:26,216:INFO:Initializing predict_model()
+2022-09-08 01:13:26,217:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f6a26fd8fa0>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(fill_value='constant',
+                                                              strategy='constant'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[],
+                                    transformer=VarianceThreshold(threshold=0))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=7981))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f6a0c0ebca0>)
+2022-09-08 01:13:26,218:INFO:Checking exceptions
+2022-09-08 01:13:26,221:INFO:Preloading libraries
+2022-09-08 01:13:26,270:INFO:Set up data.
+2022-09-08 01:14:10,051:INFO:Initializing load_model()
+2022-09-08 01:14:10,062:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:14:10,241:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:14:15,954:INFO:Initializing load_model()
+2022-09-08 01:14:15,954:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:14:15,973:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:14:21,554:INFO:Initializing load_model()
+2022-09-08 01:14:21,556:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:14:21,575:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:14:24,452:INFO:Initializing load_model()
+2022-09-08 01:14:24,454:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:14:24,472:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:14:25,781:INFO:Initializing load_model()
+2022-09-08 01:14:25,782:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:14:25,810:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:14:26,083:INFO:Initializing predict_model()
+2022-09-08 01:14:26,084:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f6a0c21d7c0>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(fill_value='constant',
+                                                              strategy='constant'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[],
+                                    transformer=VarianceThreshold(threshold=0))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=7981))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f6a0d057670>)
+2022-09-08 01:14:26,087:INFO:Checking exceptions
+2022-09-08 01:14:26,088:INFO:Preloading libraries
+2022-09-08 01:14:26,130:INFO:Set up data.
+2022-09-08 01:14:39,877:INFO:Initializing load_model()
+2022-09-08 01:14:39,878:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:14:39,902:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:14:43,979:INFO:Initializing load_model()
+2022-09-08 01:14:43,979:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:14:44,045:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:14:44,370:INFO:Initializing predict_model()
+2022-09-08 01:14:44,371:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f6a0caec100>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(fill_value='constant',
+                                                              strategy='constant'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[],
+                                    transformer=VarianceThreshold(threshold=0))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=7981))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f6a0a93e0d0>)
+2022-09-08 01:14:44,373:INFO:Checking exceptions
+2022-09-08 01:14:44,375:INFO:Preloading libraries
+2022-09-08 01:14:44,455:INFO:Set up data.
+2022-09-08 01:14:51,343:INFO:Initializing load_model()
+2022-09-08 01:14:51,344:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:14:51,401:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:14:57,292:INFO:Initializing load_model()
+2022-09-08 01:14:57,294:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:14:57,318:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:14:57,554:INFO:Initializing predict_model()
+2022-09-08 01:14:57,554:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f6a26fd8190>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(fill_value='constant',
+                                                              strategy='constant'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[],
+                                    transformer=VarianceThreshold(threshold=0))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=7981))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f6a0b792790>)
+2022-09-08 01:14:57,556:INFO:Checking exceptions
+2022-09-08 01:14:57,558:INFO:Preloading libraries
+2022-09-08 01:14:57,599:INFO:Set up data.
+2022-09-08 01:15:08,158:INFO:Initializing load_model()
+2022-09-08 01:15:08,161:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:15:08,180:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:15:09,894:INFO:Initializing load_model()
+2022-09-08 01:15:09,895:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:15:09,914:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:15:10,107:INFO:Initializing predict_model()
+2022-09-08 01:15:10,108:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f6a0c9777c0>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(fill_value='constant',
+                                                              strategy='constant'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[],
+                                    transformer=VarianceThreshold(threshold=0))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=7981))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f6a0a93e040>)
+2022-09-08 01:15:10,110:INFO:Checking exceptions
+2022-09-08 01:15:10,112:INFO:Preloading libraries
+2022-09-08 01:15:10,137:INFO:Set up data.
+2022-09-08 01:15:20,820:INFO:Initializing load_model()
+2022-09-08 01:15:20,820:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:15:20,847:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:15:23,987:INFO:Initializing load_model()
+2022-09-08 01:15:23,987:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:15:24,003:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:15:27,213:INFO:Initializing load_model()
+2022-09-08 01:15:27,216:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:15:27,245:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:15:29,966:INFO:Initializing load_model()
+2022-09-08 01:15:29,968:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:15:30,027:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:15:31,229:INFO:Initializing load_model()
+2022-09-08 01:15:31,231:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-09-08 01:15:31,332:WARNING:/home/matheus/anaconda3/lib/python3.9/site-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator KMeans from version 1.0.2 when using version 1.1.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+
+2022-09-08 01:15:31,783:INFO:Initializing predict_model()
+2022-09-08 01:15:31,783:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f6a0c9673d0>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(fill_value='constant',
+                                                              strategy='constant'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[],
+                                    transformer=VarianceThreshold(threshold=0))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=7981))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f6a0c8dee50>)
+2022-09-08 01:15:31,785:INFO:Checking exceptions
+2022-09-08 01:15:31,786:INFO:Preloading libraries
+2022-09-08 01:15:31,872:INFO:Set up data.
